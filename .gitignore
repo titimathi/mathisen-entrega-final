@@ -1,0 +1,8 @@
+*.log
+*.map
+*.vscode
+*.ai
+node_modules/
+passwords.txt
+envio.php
+
