@@ -1,0 +1,31 @@
+//variables globales
+$mainColor: #fda;
+$secondaryColor: rgb(91, 89, 89);
+$keyColor: rgb(18, 17, 17);
+$white: rgb(248, 246, 244);
+$beige: #B88746;
+$colorClaro: #fbf7f3;
+
+//fonts
+$mainFont: 'Lato', sans-serif;
+
+//weight
+$textRegular: 400;
+$textLight: 300;
+$textBold: 600;
+
+//sizes
+$textSm: 0.8em;
+$textMd: 1em;
+$textLg: 1.5em;
+$textXl: 2.5em;
+
+
+$width: 100vw;
+$height: 40vh;
+
+//shadow
+$box-shadow: 0 .5rem 1rem rgba($white, .15);
+$box-shadow-sm: 0 .125rem .25rem rgba($beige, .075);
+$box-shadow-lg: 0 1rem 3rem rgba($beige, .175);
+$box-shadow-inset: inset 0 1px 2px rgba($beige, .075);

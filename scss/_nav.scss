@@ -1,0 +1,27 @@
+.botonera {
+    background-color: $colorClaro;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+
+    a {
+        color: $beige;
+
+        &:hover {
+            color: $mainColor;
+        }
+    }
+
+    li {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    img {
+        display: flex;
+        width: 180px;
+        margin-top: 10px;
+        align-items: flex-start;
+    }
+}

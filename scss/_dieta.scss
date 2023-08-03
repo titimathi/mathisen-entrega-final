@@ -1,0 +1,49 @@
+// especials
+.asoccel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 3px;
+    max-width: 50%;
+}
+
+img.rounded-circle {
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .btn {
+        justify-content: center;
+
+        &:hover {
+            color: $mainColor;
+            background-color: $secondaryColor;
+        }
+    }
+}
+
+.asoccel h3,
+h4,
+p {
+    color: $beige;
+    text-align: center;
+    justify-content: center;
+}
+
+.member-info {
+    padding: 10px 20px;
+    border-radius: 2px;
+}

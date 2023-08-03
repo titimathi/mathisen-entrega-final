@@ -1,0 +1,102 @@
+.contenedor-grid {
+    padding: 8px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    img {
+        display: flex;
+        margin-bottom: 15px;
+        margin-right: 10px;
+        box-shadow: $box-shadow-lg;
+    }
+
+    .card-body2 {
+        display: flex;
+        flex-direction: column;
+        border-radius: 4px;
+        border-color: $beige;
+        justify-content: center;
+        padding: 10px;
+        align-content: center;
+        align-items: center;
+    }
+
+    .card-body1 {
+
+        box-sizing: border-box;
+    }
+}
+
+.mundial {
+    padding: 30px 20px;
+    margin: 20px 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 3px;
+    border-color: $beige;
+    border: 20px 20px;
+    border-color: $beige;
+    box-shadow: $box-shadow-lg;
+    box-sizing: border-box;
+
+    p {
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+.mundial1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    border-radius: 6px;
+    border-color: $beige;
+    box-shadow: $box-shadow-lg;
+
+    p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+}
+
+.salud {
+    padding: 30px 30px;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-color: $beige;
+    box-sizing: border-box;
+
+    h3 {
+        color: $beige;
+    }
+
+    p {
+        color: $secondaryColor;
+    }
+
+}
